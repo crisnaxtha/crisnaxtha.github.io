@@ -1,0 +1,273 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    height: 40px;
+    width: 150px;
+    padding: 10px;
+    align-items: center;
+    font-weight: 600;
+}
+
+.btn-empty {
+    color: #1c1d1f;
+    background-color: transparent;
+    border: 1px solid #1c1d1f;
+}
+
+.btn-empty--white {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.btn-solid--black {
+    color: #fff;
+    background-color: #1c1d1f;
+    border: 1px solid #1c1d1f;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.top-bar {
+    position: relative;
+    background-color: #eceb98;
+    color: #3d3c0a;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.top-bar__text-area {
+    width: 80%;
+}
+
+.top-bar__close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.nav-bar {
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 999;
+
+}
+
+.nav-item {
+    font-size: 14px;
+    ;
+}
+
+.nav-search {
+    width: 40%;
+    /* display: flex; */
+}
+
+.nav-search__input {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #1c1d1f;
+}
+
+.nav-search__input::placeholder {
+    padding-left: 20px;
+}
+
+.nav-cart-item i {
+    font-size: 16px;
+}
+
+.banner {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.banner-container {
+    width: 80%;
+    position: relative;
+}
+
+.banner--textarea {
+    z-index: 20;
+    position: absolute;
+    width: 200px;
+    background-color: #fff;
+    top: 100px;
+    left: 100px;
+    width: 300px;
+    padding: 50px;
+}
+
+.banner-img {
+    position: relative;
+    z-index: 0;
+    height: 500px;
+    object-fit: cover;
+}
+
+.courses {
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.courses-container {
+    width: 80%;
+
+}
+
+.courses__heading {
+    font-size: 32px;
+}
+
+.courses__caption {
+    font-size: 19px;
+}
+
+.courses-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.courses-nav li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #6a6f73;
+}
+
+.courses-nav li:first-child {
+    color: #1c1d1f;
+}
+
+.courses-nav-body {
+    padding: 32px;
+    border: 1px solid #d1d7dc;
+}
+
+.courses-nav-body__text {
+    width: 70%;
+}
+
+.courses-nav-body__text h2 {
+    margin-bottom: 10px;
+}
+
+.courses-nav-body__text p {
+    margin-bottom: 20px;
+}
+
+.courses-item-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.courses-item img {
+    height: 135px;
+    width: 240px;
+    object-fit: cover;
+    margin-bottom: 8px;
+}
+
+.courses-item__title {
+    margin-bottom: 4px;
+}
+
+.courses-item__creator {
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 12px;
+    color: #1c1d1f;
+    margin: 5px auto;
+}
+
+.courses-item__rating {
+    display: flex;
+    align-items: center;
+    color: #b4690e;
+    margin: 7px auto;
+}
+
+.courses-item__rating i {
+    font-size: 12px;
+    color: gold;
+    margin: 5px auto;
+}
+
+.courses-item__rate strike {
+    color: #6a6f73;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.courses-item__tag-bestseller {
+    background-color: #eceb98;
+    color: #3d3c0a;
+    display: inline-block;
+    padding: 4px 8px;
+    white-space: nowrap;
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1c1d1f;
+    border-top: 1px solid #3e4143;
+    color: #fff;
+    padding-top: 24px;;
+}
+
+.footer-container {
+    width: 90%;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: flex-start;
+    gap: 120px;
+}
+
+.footer-menu ul li {
+    list-style: none;
+    padding-bottom: 5px;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+}
