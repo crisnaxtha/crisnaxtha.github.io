@@ -271,3 +271,7 @@
     justify-content: space-between;
     margin: 40px auto;
 }
+
+.footer-copyright__text {
+    font-size: 14px;
+}
